@@ -24,7 +24,7 @@ const MovieDetailsPage = () => {
   const location = useLocation();
 
   const [moviesDetail, setMoviesDetail] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();

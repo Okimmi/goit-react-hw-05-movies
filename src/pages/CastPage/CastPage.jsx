@@ -13,7 +13,7 @@ const CastPage = props => {
   const { id } = useParams();
 
   const [cast, setCast] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const scrollToAdditional = () => {
     window.scrollTo({ top: 500, behavior: 'smooth' });

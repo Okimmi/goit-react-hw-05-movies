@@ -8,7 +8,7 @@ import { Loader } from 'components/Loader';
 
 const HomePage = () => {
   const [trendingList, setTrendingList] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
